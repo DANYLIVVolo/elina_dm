@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+    color: lightyellow;
+    background-color: lightcoral;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    height: 80px;
+    border-top: 3px solid lightyellow;
+    border-bottom: 3px solid lightyellow;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    border-radius: 15px;
+    background-color: lightcoral;
+    text-decoration: none;
+    color: lightyellow;
+    font-size: 25px;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: lightyellow;
+    color: lightcoral;
+    transform: scale(1.1);
+}
+
+header {
+    background-image: linear-gradient(lightyellow, lightcoral);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-weight: bolder;
+    color: lightcoral;
+    text-shadow: 5px 4px 3px white;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    text-align: center;
+    color: lightyellow;
+    text-shadow: 3px 1px 2px white;
+    font-weight: bolder;
+}
+
+.instagram {
+    background-color: #ffb4b4;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.instagram:hover {
+    background-color: #ff9a9a;
+}
+
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    margin: 10px;
+    font-weight: bolder;
+    background-image: url("https://static.insales-cdn.com/images/products/1/7175/409541639/large_1600_-_2021-02-25T204531.835.jpg");
+    float: left;
+    box-shadow: 5px 5px 5px 5px lightyellow;
+    color: black;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.about img {
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px 5px lightyellow;
+}
+
+.tkanuna, .frog, .about {
+    border: 3px solid lightyellow;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.tkanuna:hover, .frog:hover, .about:hover {
+    transform: scale(1.03);
+}
+
+.crafts img {
+    margin: 15px;
+    transition: transform 1s ease;
+}
+
+.crafts img:hover {
+    border-radius: 30px;
+    border: 3px solid lightyellow;
+    transform: scale(1.5) rotate(5deg);
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: lightyellow;
+}
+
+.felt-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.felt-gallery img {
+    width: 150px;
+    height: 90px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.felt-gallery img:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.tkanuna table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tkanuna table th, .tkanuna table td {
+    border: 2px solid lightyellow;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tkanuna table th {
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+.tkanuna ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.tkanuna ul li {
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+}
+
+.tkanuna ul li:hover {
+    transform: translateX(10px);
+    color: #fff;
+    font-weight: bold;
+}
